@@ -1,0 +1,910 @@
+Script started on Thu Sep 19 15:12:28 2019
+]0;/Users/mikekavouras/projects/example-github-action-typescript[0;33mmikekavouras[0m: [0;33m~/projects/example-github-action-typescript[0m [[0;36mmaster[0m] $ npm run [K[K[K[Ktest
+
+> @ test /Users/mikekavouras/projects/example-github-action-typescript
+> tsc --noEmit && jest
+
+[1m[2mDetermining test suites to run...[1m[22m[999D[K[1mNo tests found, exiting with code 1[22m
+Run with `--passWithNoTests` to exit with code 0
+In [1m/Users/mikekavouras/projects/example-github-action-typescript[22m
+  3 files checked.
+  testMatch: [33m**/__tests__/**/*.[jt]s?(x), **/?(*.)+(spec|test).[tj]s?(x)[39m - 0 matches
+  testPathIgnorePatterns: [33m/node_modules/[39m - 3 matches
+  testRegex:  - 0 matches
+Pattern:  - 0 matches
+[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Test failed.  See above for more details.
+[0m]0;/Users/mikekavouras/projects/example-github-action-typescript[0;33mmikekavouras[0m: [0;33m~/projects/example-github-action-typescript[0m [[0;36mmaster[0m] $ npm test
+\
+> @ test /Users/mikekavouras/projects/example-github-action-typescript
+> tsc --noEmit && jest
+
+[1m[2mDetermining test suites to run...[1m[22m[999D[K[1mNo tests found, exiting with code 1[22m
+Run with `--passWithNoTests` to exit with code 0
+In [1m/Users/mikekavouras/projects/example-github-action-typescript[22m
+  3 files checked.
+  testMatch: [33m**/__tests__/**/*.[jt]s?(x), **/?(*.)+(spec|test).[tj]s?(x)[39m - 0 matches
+  testPathIgnorePatterns: [33m/node_modules/[39m - 3 matches
+  testRegex:  - 0 matches
+Pattern:  - 0 matches
+[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Test failed.  See above for more details.
+[0m]0;/Users/mikekavouras/projects/example-github-action-typescript[0;33mmikekavouras[0m: [0;33m~/projects/example-github-action-typescript[0m [[0;36mmaster[0m] $ \[K[?5h[?5l[?5h[?5ltouch jest.config.js
+]0;/Users/mikekavouras/projects/example-github-action-typescript[0;33mmikekavouras[0m: [0;33m~/projects/example-github-action-typescript[0m [[0;36mmaster[0m] $ vim jest.config.js 
+[?2004h[?1049h[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[29m[m[38;5;252m[48;5;234m[H[2J[?25l[24;1H"jest.config.js" 0L, 0C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[38;5;247m[48;5;233m   1 [m[38;5;252m[48;5;234m[80C[41m [m[38;5;252m[48;5;234m
+[1m[38;5;247m[48;5;233m~                                                                                                                     [3;1H~                                                                                                                     [4;1H~                                                                                                                     [5;1H~                                                                                                                     [6;1H~                                                                                                                     [7;1H~                                                                                                                     [8;1H~                                                                                                                     [9;1H~                                                                                                                     [10;1H~                                                                                                                     [11;1H~                                                                                                                     [12;1H~                                                                                                                     [13;1H~                                                                                                                     [14;1H~                                                                                                                     [15;1H~                                                                                                                     [16;1H~                                                                                                                     [17;1H~                                                                                                                     [18;1H~                                                                                                                     [19;1H~                                                                                                                     [20;1H~                                                                                                                     [21;1H~                                                                                                                     [22;1H~                                                                                                                     [m[38;5;252m[48;5;234m[23;1H[1m[97m[48;5;239mjest.config.js                                                                                      0,0-1          All[1;6H[?25h[?12$p[?25l[m[38;5;252m[48;5;234m[24;1H[K[24;1H:[?2004hechomsg l:messageFile ignored because of a matching ignore pattern. Use "--no-ignore" to override.[1;1H[30m[48;5;184m--[m[38;5;252m[48;5;234m[1C[38;5;247m[48;5;233m  1 [m[38;5;252m[48;5;234m[78C  [41m [m[38;5;252m[48;5;234m
+[38;5;248m[48;5;242m  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  [m[38;5;252m[48;5;234m[2;3H[1m[38;5;247m[48;5;233m~[3;3H~[4;3H~[5;3H~[6;3H~[7;3H~[8;3H~[9;3H~[10;3H~[11;3H~[12;3H~[13;3H~[14;3H~[15;3H~[16;3H~[17;3H~[18;3H~[19;3H~[20;3H~[21;3H~[22;3H~[1;8H[?25h[?25l[m[38;5;252m[48;5;234m[24;108Hp[1;8H[24;1H9 more lines[24;14H[K[1;8H[38;5;229mmodule[m[38;5;252m[48;5;234m.exports [38;5;110m=[m[38;5;252m[48;5;234m {[2;3H[38;5;247m[48;5;233m   2 [m[38;5;252m[48;5;234m  clearMocks: [38;5;229mtrue[m[38;5;252m[48;5;234m,                                                             [41m [m[38;5;252m[48;5;234m[2;89H[K[3;3H[38;5;247m[48;5;233m   3 [m[38;5;252m[48;5;234m  moduleFileExtensions: [[38;5;229m'js'[m[38;5;252m[48;5;234m, [38;5;229m'ts'[m[38;5;252m[48;5;234m],                                           [41m [m[38;5;252m[48;5;234m[3;89H[K[4;3H[38;5;247m[48;5;233m   4 [m[38;5;252m[48;5;234m  testEnvironment: [38;5;229m'node'[m[38;5;252m[48;5;234m,                                                      [41m [m[38;5;252m[48;5;234m[4;89H[K[5;3H[38;5;247m[48;5;233m   5 [m[38;5;252m[48;5;234m  testMatch: [[38;5;229m'**/*.test.ts'[m[38;5;252m[48;5;234m],                                                  [41m [m[38;5;252m[48;5;234m[5;89H[K[6;3H[38;5;247m[48;5;233m   6 [m[38;5;252m[48;5;234m  transform: {                                                                  [41m [m[38;5;252m[48;5;234m[6;89H[K[7;3H[38;5;247m[48;5;233m   7 [m[38;5;252m[48;5;234m    [38;5;229m'^.+[m[38;5;252m[48;5;234m[38;5;174m\\[m[38;5;252m[48;5;234m[38;5;229m.ts$'[m[38;5;252m[48;5;234m: [38;5;229m'ts-jest'[m[38;5;252m[48;5;234m,                                                     [41m [m[38;5;252m[48;5;234m[7;89H[K[8;3H[38;5;247m[48;5;233m   8 [m[38;5;252m[48;5;234m  },                                                                            [41m [m[38;5;252m[48;5;234m[8;89H[K[9;3H[38;5;247m[48;5;233m   9 [m[38;5;252m[48;5;234m  verbose: [38;5;229mtrue[m[38;5;252m[48;5;234m,                                                                [41m [m[38;5;252m[48;5;234m[9;89H[K[10;3H[38;5;247m[48;5;233m  10 [m[38;5;252m[48;5;234m}                                                                               [41m [m[38;5;252m[48;5;234m[10;89H[K[23;16H[1m[97m[48;5;239m[+][82C1,1   [1;8H[?25h[?25l[m[38;5;252m[48;5;234m[24;108H^[[1;8H[?25h[?25l[24;108H  [1;8H[?25h[?25l[24;108H:[1;8H[24;1H[K[24;1H:[?2004h[?25hw[?25l[?25h[?25l"jest.config.js" 10L, 202C written[1;8H[23;16H[1m[97m[48;5;239m    [1;8H[?25h[?25l[m[38;5;252m[48;5;234m[24;108H:[1;8H[24;1H[K[24;1H:[?2004h[?25h[?25l[?25h[?25l[?25hq[?25l[?25h[?25l[?2004l[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t[24;1H[K[24;1H[?2004l[?1l>[?25h[?1049l]0;/Users/mikekavouras/projects/example-github-action-typescript[0;33mmikekavouras[0m: [0;33m~/projects/example-github-action-typescript[0m [[0;36mmaster[0m] $ npm run r[Ktest
+
+> @ test /Users/mikekavouras/projects/example-github-action-typescript
+> tsc --noEmit && jest
+
+[1m[2mDetermining test suites to run...[1m[22m[999D[K[1mNo tests found, exiting with code 1[22m
+Run with `--passWithNoTests` to exit with code 0
+In [1m/Users/mikekavouras/projects/example-github-action-typescript[22m
+  1 file checked.
+  testMatch: [33m**/*.test.ts[39m - 0 matches
+  testPathIgnorePatterns: [33m/node_modules/[39m - 1 match
+  testRegex:  - 0 matches
+Pattern:  - 0 matches
+[37;40mnpm[0m [0m[31;40mERR![0m [0m[35mcode[0m ELIFECYCLE
+[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35merrno[0m 1
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m @ test: `tsc --noEmit && jest`
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Exit status 1
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m 
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Failed at the @ test script.
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m This is probably not a problem with npm. There is likely additional logging output above.
+[0m
+[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m A complete log of this run can be found in:
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m     /Users/mikekavouras/.npm/_logs/2019-09-19T19_13_52_139Z-debug.log
+[0m]0;/Users/mikekavouras/projects/example-github-action-typescript[0;33mmikekavouras[0m: [0;33m~/projects/example-github-action-typescript[0m [[0;36mmaster[0m] $ catp [K[K jest.config.js 
+module.exports = {
+  clearMocks: true,
+  moduleFileExtensions: ['js', 'ts'],
+  testEnvironment: 'node',
+  testMatch: ['**/*.test.ts'],
+  transform: {
+    '^.+\\.ts$': 'ts-jest',
+  },
+  verbose: true,
+}
+]0;/Users/mikekavouras/projects/example-github-action-typescript[0;33mmikekavouras[0m: [0;33m~/projects/example-github-action-typescript[0m [[0;36mmaster[0m] $ kj[K[K[?5h[?5lvim s[Kpackac[Kg
+package-lock.json  package.json       
+[0;33mmikekavouras[0m: [0;33m~/projects/example-github-action-typescript[0m [[0;36mmaster[0m] $ vim package
+[?2004h[?1049h[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[29m[m[38;5;252m[48;5;234m[H[2J[?25l[24;1H"package" [New File][2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[38;5;247m[48;5;233m   1 [m[38;5;252m[48;5;234m[80C[41m [m[38;5;252m[48;5;234m
+[1m[38;5;247m[48;5;233m~                                                                                                                     [3;1H~                                                                                                                     [4;1H~                                                                                                                     [5;1H~                                                                                                                     [6;1H~                                                                                                                     [7;1H~                                                                                                                     [8;1H~                                                                                                                     [9;1H~                                                                                                                     [10;1H~                                                                                                                     [11;1H~                                                                                                                     [12;1H~                                                                                                                     [13;1H~                                                                                                                     [14;1H~                                                                                                                     [15;1H~                                                                                                                     [16;1H~                                                                                                                     [17;1H~                                                                                                                     [18;1H~                                                                                                                     [19;1H~                                                                                                                     [20;1H~                                                                                                                     [21;1H~                                                                                                                     [22;1H~                                                                                                                     [m[38;5;252m[48;5;234m[23;1H[1m[97m[48;5;239mpackage                                                                                             0,0-1          All[1;6H[?25h[?12$p[?25l[m[38;5;252m[48;5;234m[24;108H:[1;6H[24;1H[K[24;1H:[?2004h[?25hq[?25l[?25hw[?25l[?25h[?25l[97m[41mE492: Not an editor command: qw[1;6H[?25h[?25l[m[38;5;252m[48;5;234m[24;108H:[1;6H[24;1H[K[24;1H:[?2004h[?25hq[?25l[?25h[?25l[?2004l[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t[24;1H[K[24;1H[?2004l[?1l>[?25h[?1049l]0;/Users/mikekavouras/projects/example-github-action-typescript[0;33mmikekavouras[0m: [0;33m~/projects/example-github-action-typescript[0m [[0;36mmaster[0m] $ vim packagej[K.json 
+[?2004h[?1049h[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[29m[m[38;5;252m[48;5;234m[H[2J[?25l[24;1H"package.json" 25L, 630C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[38;5;247m[48;5;233m   1 [m[38;5;252m[48;5;234m[38;5;174m{[m[38;5;252m[48;5;234m[79C[41m [m[38;5;252m[48;5;234m
+[38;5;247m[48;5;233m   2 [m[38;5;252m[48;5;234m  "[38;5;110mprivate[m[38;5;252m[48;5;234m": [38;5;229mtrue[m[38;5;252m[48;5;234m,[62C[41m [m[38;5;252m[48;5;234m
+[38;5;247m[48;5;233m   3 [m[38;5;252m[48;5;234m  "[38;5;110mscripts[m[38;5;252m[48;5;234m": [38;5;174m{[m[38;5;252m[48;5;234m[66C[41m [m[38;5;252m[48;5;234m
+[38;5;247m[48;5;233m   4 [m[38;5;252m[48;5;234m    "[38;5;110mbuild[m[38;5;252m[48;5;234m": "[38;5;229mtsc[m[38;5;252m[48;5;234m",[61C[41m [m[38;5;252m[48;5;234m
+[38;5;247m[48;5;233m   5 [m[38;5;252m[48;5;234m    "[38;5;110mtest[m[38;5;252m[48;5;234m": "[38;5;229mtsc --noEmit && jest[m[38;5;252m[48;5;234m",[45C[41m [m[38;5;252m[48;5;234m
+[38;5;247m[48;5;233m   6 [m[38;5;252m[48;5;234m    "[38;5;110mlint[m[38;5;252m[48;5;234m": "[38;5;229meslint . --ext .ts[m[38;5;252m[48;5;234m"[48C[41m [m[38;5;252m[48;5;234m
+[38;5;247m[48;5;233m   7 [m[38;5;252m[48;5;234m  [38;5;174m}[m[38;5;252m[48;5;234m,[76C[41m [m[38;5;252m[48;5;234m
+[38;5;247m[48;5;233m   8 [m[38;5;252m[48;5;234m  "[38;5;110mlicense[m[38;5;252m[48;5;234m": "[38;5;229mISC[m[38;5;252m[48;5;234m",[61C[41m [m[38;5;252m[48;5;234m
+[38;5;247m[48;5;233m   9 [m[38;5;252m[48;5;234m  "[38;5;110mdevDependencies[m[38;5;252m[48;5;234m": [38;5;174m{[m[38;5;252m[48;5;234m[58C[41m [m[38;5;252m[48;5;234m
+[38;5;247m[48;5;233m  10 [m[38;5;252m[48;5;234m    "[38;5;110m@actions/core[m[38;5;252m[48;5;234m": "[38;5;229m^1.1.1[m[38;5;252m[48;5;234m",[50C[41m [m[38;5;252m[48;5;234m
+[38;5;247m[48;5;233m  11 [m[38;5;252m[48;5;234m    "[38;5;110m@actions/github[m[38;5;252m[48;5;234m": "[38;5;229m^1.1.0[m[38;5;252m[48;5;234m",[48C[41m [m[38;5;252m[48;5;234m
+[38;5;247m[48;5;233m  12 [m[38;5;252m[48;5;234m    "[38;5;110m@types/jest[m[38;5;252m[48;5;234m": "[38;5;229m^24.0.18[m[38;5;252m[48;5;234m",[50C[41m [m[38;5;252m[48;5;234m
+[38;5;247m[48;5;233m  13 [m[38;5;252m[48;5;234m    "[38;5;110m@types/node[m[38;5;252m[48;5;234m": "[38;5;229m^12.7.5[m[38;5;252m[48;5;234m",[51C[41m [m[38;5;252m[48;5;234m
+[38;5;247m[48;5;233m  14 [m[38;5;252m[48;5;234m    "[38;5;110m@typescript-eslint/eslint-plugin[m[38;5;252m[48;5;234m": "[38;5;229m^2.3.0[m[38;5;252m[48;5;234m",[31C[41m [m[38;5;252m[48;5;234m
+[38;5;247m[48;5;233m  15 [m[38;5;252m[48;5;234m    "[38;5;110m@typescript-eslint/parser[m[38;5;252m[48;5;234m": "[38;5;229m^2.3.0[m[38;5;252m[48;5;234m",[38C[41m [m[38;5;252m[48;5;234m
+[38;5;247m[48;5;233m  16 [m[38;5;252m[48;5;234m    "[38;5;110meslint[m[38;5;252m[48;5;234m": "[38;5;229m^6.4.0[m[38;5;252m[48;5;234m",[57C[41m [m[38;5;252m[48;5;234m
+[38;5;247m[48;5;233m  17 [m[38;5;252m[48;5;234m    "[38;5;110meslint-config-prettier[m[38;5;252m[48;5;234m": "[38;5;229m^6.3.0[m[38;5;252m[48;5;234m",[41C[41m [m[38;5;252m[48;5;234m
+[38;5;247m[48;5;233m  18 [m[38;5;252m[48;5;234m    "[38;5;110meslint-plugin-prettier[m[38;5;252m[48;5;234m": "[38;5;229m^3.1.1[m[38;5;252m[48;5;234m",[41C[41m [m[38;5;252m[48;5;234m
+[38;5;247m[48;5;233m  19 [m[38;5;252m[48;5;234m    "[38;5;110mjest[m[38;5;252m[48;5;234m": "[38;5;229m^24.9.0[m[38;5;252m[48;5;234m",[58C[41m [m[38;5;252m[48;5;234m
+[38;5;247m[48;5;233m  20 [m[38;5;252m[48;5;234m    "[38;5;110mjs-yaml[m[38;5;252m[48;5;234m": "[38;5;229m^3.13.1[m[38;5;252m[48;5;234m",[55C[41m [m[38;5;252m[48;5;234m
+[38;5;247m[48;5;233m  21 [m[38;5;252m[48;5;234m    "[38;5;110mprettier[m[38;5;252m[48;5;234m": "[38;5;229m^1.18.2[m[38;5;252m[48;5;234m",[54C[41m [m[38;5;252m[48;5;234m
+[38;5;247m[48;5;233m  22 [m[38;5;252m[48;5;234m    "[38;5;110mts-jest[m[38;5;252m[48;5;234m": "[38;5;229m^24.1.0[m[38;5;252m[48;5;234m",[55C[41m [m[38;5;252m[48;5;234m
+[1m[97m[48;5;239mpackage.json                                                                                        5,4            Top[5;9H[?25h[?12$p[?25l[m[38;5;252m[48;5;234m[24;108H^[[5;9H[?25h[?25l[24;108H  [5;9H[?25h[?25l[24;108Hj[5;9H[24;108H [6;9H[23;101H[1m[97m[48;5;239m6,[6;9H[?25h[?25l[m[38;5;252m[48;5;234m[24;108Hj[6;9H[24;108H [7;9H[23;101H[1m[97m[48;5;239m7,[7;9H[?25h[?25l[m[38;5;252m[48;5;234m[24;108Hk[7;9H[24;108H [6;9H[23;101H[1m[97m[48;5;239m6,[6;9H[?25h[?25l[m[38;5;252m[48;5;234m[24;108Hk[6;9H[24;108H [5;9H[23;101H[1m[97m[48;5;239m5,[5;9H[?25h[?25l[m[38;5;252m[48;5;234m[24;108HV[5;9H[24;108H1[5;9H[38;5;255m[48;5;96m   [m[38;5;252m[48;5;234m [38;5;255m[48;5;96m"test": "tsc --noEmit && jest",[5;9H[?25h[?25l[m[38;5;252m[48;5;234m[24;108H^[[5;9H[?25h[?25l[24;108H1 [5;9H[24;108H [5;9H    "[38;5;110mtest[m[38;5;252m[48;5;234m": "[38;5;229mtsc --noEmit && jest[m[38;5;252m[48;5;234m",[5;9H[?25h[?25l[24;108H^[[5;9H[?25h[?25l[24;108H  [5;9H[?25h[?25l[24;108H^[[5;9H[?25h[?25l[24;108H  [5;9H[?25h[?25l[24;108H^[[5;9H[?25h[?25l[24;108H  [5;9H[?25h[?25l[24;108Hk[5;9H[24;108H [4;9H[23;101H[1m[97m[48;5;239m4,[4;9H[?25h[?25l[m[38;5;252m[48;5;234m[24;108Hj[4;9H[24;108H [5;9H[23;101H[1m[97m[48;5;239m5,[5;9H[?25h[?25l[m[38;5;252m[48;5;234m[24;108Hk[5;9H[24;108H [4;9H[23;101H[1m[97m[48;5;239m4,[4;9H[?25h[?25l[m[38;5;252m[48;5;234m[24;108Hj[4;9H[24;108H [5;9H[23;101H[1m[97m[48;5;239m5,[5;9H[?25h[?25l[m[38;5;252m[48;5;234m[24;108Hk[5;9H[24;108H [4;9H[23;101H[1m[97m[48;5;239m4,[4;9H[?25h[?25l[m[38;5;252m[48;5;234m[24;108Hj[4;9H[24;108H [5;9H[23;101H[1m[97m[48;5;239m5,[5;9H[?25h[?25l[m[38;5;252m[48;5;234m[24;108Hk[5;9H[24;108H [4;9H[23;101H[1m[97m[48;5;239m4,[4;9H[?25h[?25l[m[38;5;252m[48;5;234m[24;108Hj[4;9H[24;108H [5;9H[23;101H[1m[97m[48;5;239m5,[5;9H[?25h[?25l[m[38;5;252m[48;5;234m[24;108Hk[5;9H[24;108H [4;9H[23;101H[1m[97m[48;5;239m4,[4;9H[?25h[?25l[m[38;5;252m[48;5;234m[24;108Hj[4;9H[24;108H [5;9H[23;101H[1m[97m[48;5;239m5,[5;9H[?25h[?25l[m[38;5;252m[48;5;234m[24;108Hk[5;9H[24;108H [4;9H[23;101H[1m[97m[48;5;239m4,[4;9H[?25h[?25l[m[38;5;252m[48;5;234m[24;108Hj[4;9H[24;108H [5;9H[23;101H[1m[97m[48;5;239m5,[5;9H[?25h[?25l[m[38;5;252m[48;5;234m[24;108Hk[5;9H[24;108H [4;9H[23;101H[1m[97m[48;5;239m4,[4;9H[?25h[?25l[m[38;5;252m[48;5;234m[24;108Hj[4;9H[24;108H [5;9H[23;101H[1m[97m[48;5;239m5,[5;9H[?25h[?25l[m[38;5;252m[48;5;234m[24;108Hk[5;9H[24;108H [4;9H[23;101H[1m[97m[48;5;239m4,[4;9H[?25h[?25l[m[38;5;252m[48;5;234m[24;108Hj[4;9H[24;108H [5;9H[23;101H[1m[97m[48;5;239m5,[5;9H[?25h[?25l[m[38;5;252m[48;5;234m[24;108Hk[5;9H[24;108H [4;9H[23;101H[1m[97m[48;5;239m4,[4;9H[?25h[?25l[m[38;5;252m[48;5;234m[24;108Hj[4;9H[24;108H [5;9H[23;101H[1m[97m[48;5;239m5,[5;9H[?25h[?25l[m[38;5;252m[48;5;234m[24;108Hl[5;9H[24;108H [5;10H[23;103H[1m[97m[48;5;239m5 [5;10H[?25h[?25l[m[38;5;252m[48;5;234m[24;108Hk[5;10H[24;108H [4;10H[23;101H[1m[97m[48;5;239m4,[4;10H[?25h[?25l[m[38;5;252m[48;5;234m[24;108Hj[4;10H[24;108H [5;10H[23;101H[1m[97m[48;5;239m5,[5;10H[?25h[?25l[m[38;5;252m[48;5;234m[24;108H:[5;10H[24;1H[K[24;1H:[?2004h[?25hq[?25l[?25h[?25l[?2004l[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t[24;1H[K[24;1H[?2004l[?1l>[?25h[?1049l]0;/Users/mikekavouras/projects/example-github-action-typescript[0;33mmikekavouras[0m: [0;33m~/projects/example-github-action-typescript[0m [[0;36mmaster[0m] $ vim package.json 
+[?2004h[?1049h[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[29m[m[38;5;252m[48;5;234m[H[2J[?25l[24;1H"package.json" 25L, 630C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[38;5;247m[48;5;233m   1 [m[38;5;252m[48;5;234m[38;5;174m{[m[38;5;252m[48;5;234m[79C[41m [m[38;5;252m[48;5;234m
+[38;5;247m[48;5;233m   2 [m[38;5;252m[48;5;234m  "[38;5;110mprivate[m[38;5;252m[48;5;234m": [38;5;229mtrue[m[38;5;252m[48;5;234m,[62C[41m [m[38;5;252m[48;5;234m
+[38;5;247m[48;5;233m   3 [m[38;5;252m[48;5;234m  "[38;5;110mscripts[m[38;5;252m[48;5;234m": [38;5;174m{[m[38;5;252m[48;5;234m[66C[41m [m[38;5;252m[48;5;234m
+[38;5;247m[48;5;233m   4 [m[38;5;252m[48;5;234m    "[38;5;110mbuild[m[38;5;252m[48;5;234m": "[38;5;229mtsc[m[38;5;252m[48;5;234m",[61C[41m [m[38;5;252m[48;5;234m
+[38;5;247m[48;5;233m   5 [m[38;5;252m[48;5;234m    "[38;5;110mtest[m[38;5;252m[48;5;234m": "[38;5;229mtsc --noEmit && jest[m[38;5;252m[48;5;234m",[45C[41m [m[38;5;252m[48;5;234m
+[38;5;247m[48;5;233m   6 [m[38;5;252m[48;5;234m    "[38;5;110mlint[m[38;5;252m[48;5;234m": "[38;5;229meslint . --ext .ts[m[38;5;252m[48;5;234m"[48C[41m [m[38;5;252m[48;5;234m
+[38;5;247m[48;5;233m   7 [m[38;5;252m[48;5;234m  [38;5;174m}[m[38;5;252m[48;5;234m,[76C[41m [m[38;5;252m[48;5;234m
+[38;5;247m[48;5;233m   8 [m[38;5;252m[48;5;234m  "[38;5;110mlicense[m[38;5;252m[48;5;234m": "[38;5;229mISC[m[38;5;252m[48;5;234m",[61C[41m [m[38;5;252m[48;5;234m
+[38;5;247m[48;5;233m   9 [m[38;5;252m[48;5;234m  "[38;5;110mdevDependencies[m[38;5;252m[48;5;234m": [38;5;174m{[m[38;5;252m[48;5;234m[58C[41m [m[38;5;252m[48;5;234m
+[38;5;247m[48;5;233m  10 [m[38;5;252m[48;5;234m    "[38;5;110m@actions/core[m[38;5;252m[48;5;234m": "[38;5;229m^1.1.1[m[38;5;252m[48;5;234m",[50C[41m [m[38;5;252m[48;5;234m
+[38;5;247m[48;5;233m  11 [m[38;5;252m[48;5;234m    "[38;5;110m@actions/github[m[38;5;252m[48;5;234m": "[38;5;229m^1.1.0[m[38;5;252m[48;5;234m",[48C[41m [m[38;5;252m[48;5;234m
+[38;5;247m[48;5;233m  12 [m[38;5;252m[48;5;234m    "[38;5;110m@types/jest[m[38;5;252m[48;5;234m": "[38;5;229m^24.0.18[m[38;5;252m[48;5;234m",[50C[41m [m[38;5;252m[48;5;234m
+[38;5;247m[48;5;233m  13 [m[38;5;252m[48;5;234m    "[38;5;110m@types/node[m[38;5;252m[48;5;234m": "[38;5;229m^12.7.5[m[38;5;252m[48;5;234m",[51C[41m [m[38;5;252m[48;5;234m
+[38;5;247m[48;5;233m  14 [m[38;5;252m[48;5;234m    "[38;5;110m@typescript-eslint/eslint-plugin[m[38;5;252m[48;5;234m": "[38;5;229m^2.3.0[m[38;5;252m[48;5;234m",[31C[41m [m[38;5;252m[48;5;234m
+[38;5;247m[48;5;233m  15 [m[38;5;252m[48;5;234m    "[38;5;110m@typescript-eslint/parser[m[38;5;252m[48;5;234m": "[38;5;229m^2.3.0[m[38;5;252m[48;5;234m",[38C[41m [m[38;5;252m[48;5;234m
+[38;5;247m[48;5;233m  16 [m[38;5;252m[48;5;234m    "[38;5;110meslint[m[38;5;252m[48;5;234m": "[38;5;229m^6.4.0[m[38;5;252m[48;5;234m",[57C[41m [m[38;5;252m[48;5;234m
+[38;5;247m[48;5;233m  17 [m[38;5;252m[48;5;234m    "[38;5;110meslint-config-prettier[m[38;5;252m[48;5;234m": "[38;5;229m^6.3.0[m[38;5;252m[48;5;234m",[41C[41m [m[38;5;252m[48;5;234m
+[38;5;247m[48;5;233m  18 [m[38;5;252m[48;5;234m    "[38;5;110meslint-plugin-prettier[m[38;5;252m[48;5;234m": "[38;5;229m^3.1.1[m[38;5;252m[48;5;234m",[41C[41m [m[38;5;252m[48;5;234m
+[38;5;247m[48;5;233m  19 [m[38;5;252m[48;5;234m    "[38;5;110mjest[m[38;5;252m[48;5;234m": "[38;5;229m^24.9.0[m[38;5;252m[48;5;234m",[58C[41m [m[38;5;252m[48;5;234m
+[38;5;247m[48;5;233m  20 [m[38;5;252m[48;5;234m    "[38;5;110mjs-yaml[m[38;5;252m[48;5;234m": "[38;5;229m^3.13.1[m[38;5;252m[48;5;234m",[55C[41m [m[38;5;252m[48;5;234m
+[38;5;247m[48;5;233m  21 [m[38;5;252m[48;5;234m    "[38;5;110mprettier[m[38;5;252m[48;5;234m": "[38;5;229m^1.18.2[m[38;5;252m[48;5;234m",[54C[41m [m[38;5;252m[48;5;234m
+[38;5;247m[48;5;233m  22 [m[38;5;252m[48;5;234m    "[38;5;110mts-jest[m[38;5;252m[48;5;234m": "[38;5;229m^24.1.0[m[38;5;252m[48;5;234m",[55C[41m [m[38;5;252m[48;5;234m
+[1m[97m[48;5;239mpackage.json                                                                                        5,5            Top[5;10H[?25h[?12$p[?25l[m[38;5;252m[48;5;234m[24;108H^[[5;10H[?25h[?25l[24;108H  [5;10H[?25h[?25l[24;108Hl[5;10H[24;108H [5;11H[23;103H[1m[97m[48;5;239m6 [5;11H[?25h[?25l[m[38;5;252m[48;5;234m[24;108Hl[5;11H[24;108H [5;12H[23;103H[1m[97m[48;5;239m7 [5;12H[?25h[?25l[m[38;5;252m[48;5;234m[24;108Hl[5;12H[24;108H [5;13H[23;103H[1m[97m[48;5;239m8 [5;13H[?25h[?25l[m[38;5;252m[48;5;234m[24;108Hl[5;13H[24;108H [5;14H[23;103H[1m[97m[48;5;239m9 [5;14H[?25h[?25l[m[38;5;252m[48;5;234m[24;108Hl[5;14H[24;108H [5;15H[23;103H[1m[97m[48;5;239m10[5;15H[?25h[?25l[m[38;5;252m[48;5;234m[24;108Hl[5;15H[24;108H [5;16H[23;104H[1m[97m[48;5;239m1 [5;16H[?25h[?25l[m[38;5;252m[48;5;234m[24;108Hl[5;16H[24;108H [5;17H[23;104H[1m[97m[48;5;239m2 [5;17H[?25h[?25l[m[38;5;252m[48;5;234m[24;108Hl[5;17H[24;108H [5;18H[23;104H[1m[97m[48;5;239m3 [5;18H[?25h[?25l[m[38;5;252m[48;5;234m[24;108Hl[5;18H[24;108H [5;19H[23;104H[1m[97m[48;5;239m4 [5;19H[?25h[?25l[m[38;5;252m[48;5;234m[24;108Hl[5;19H[24;108H [5;20H[23;104H[1m[97m[48;5;239m5 [5;20H[?25h[?25l[m[38;5;252m[48;5;234m[24;108Hl[5;20H[24;108H [5;21H[23;104H[1m[97m[48;5;239m6 [5;21H[?25h[?25l[m[38;5;252m[48;5;234m[24;108Hl[5;21H[24;108H [5;22H[23;104H[1m[97m[48;5;239m7 [5;22H[?25h[?25l[m[38;5;252m[48;5;234m[24;108Hl[5;22H[24;108H [5;23H[23;104H[1m[97m[48;5;239m8 [5;23H[?25h[?25l[m[38;5;252m[48;5;234m[24;108Hl[5;23H[24;108H [5;24H[23;104H[1m[97m[48;5;239m9 [5;24H[?25h[?25l[m[38;5;252m[48;5;234m[24;108Hl[5;24H[24;108H [5;25H[23;103H[1m[97m[48;5;239m20 [5;25H[?25h[?25l[m[38;5;252m[48;5;234m[24;108Hl[5;25H[24;108H [5;26H[23;104H[1m[97m[48;5;239m1 [5;26H[?25h[?25l[m[38;5;252m[48;5;234m[24;108H^[[5;26H[?25h[?25l[24;108H  [5;26H[?25h[?25l[24;108H:[5;26H[24;1H[K[24;1H:[?2004h[?25hq[?25l[?25h[?25l[?2004l[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t[24;1H[K[24;1H[?2004l[?1l>[?25h[?1049l]0;/Users/mikekavouras/projects/example-github-action-typescript[0;33mmikekavouras[0m: [0;33m~/projects/example-github-action-typescript[0m [[0;36mmaster[0m] $ cat jest.config.js [?5h[?5l2node
+module.exports = {
+  clearMocks: true,
+  moduleFileExtensions: ['js', 'ts'],
+  testEnvironment: 'node',
+  testMatch: ['**/*.test.ts'],
+  transform: {
+    '^.+\\.ts$': 'ts-jest',
+  },
+  verbose: true,
+}
+cat: 2node: No such file or directory
+]0;/Users/mikekavouras/projects/example-github-action-typescript[0;33mmikekavouras[0m: [0;33m~/projects/example-github-action-typescript[0m [[0;36mmaster[0m] $ noce
+bash: noce: command not found
+]0;/Users/mikekavouras/projects/example-github-action-typescript[0;33mmikekavouras[0m: [0;33m~/projects/example-github-action-typescript[0m [[0;36mmaster[0m] $ noce[K[Kde
+[1G[0J> [3Gvar fs = require [1G[0J> var fs = require[19G('fs'0
+[1G[0J... [5G
+[1G[0J> [3G[1G[0J> var fs = require('fs'0[25G)[1G[0J> var fs = require('fs'0[25G[1G[0J> var fs = require('fs'[24G)
+[90mundefined[39m
+[1G[0J> [3Gfs
+{ constants: 
+   { O_RDONLY: [33m0[39m,
+     O_WRONLY: [33m1[39m,
+     O_RDWR: [33m2[39m,
+     S_IFMT: [33m61440[39m,
+     S_IFREG: [33m32768[39m,
+     S_IFDIR: [33m16384[39m,
+     S_IFCHR: [33m8192[39m,
+     S_IFBLK: [33m24576[39m,
+     S_IFIFO: [33m4096[39m,
+     S_IFLNK: [33m40960[39m,
+     S_IFSOCK: [33m49152[39m,
+     O_CREAT: [33m512[39m,
+     O_EXCL: [33m2048[39m,
+     O_NOCTTY: [33m131072[39m,
+     O_TRUNC: [33m1024[39m,
+     O_APPEND: [33m8[39m,
+     O_DIRECTORY: [33m1048576[39m,
+     O_NOFOLLOW: [33m256[39m,
+     O_SYNC: [33m128[39m,
+     O_DSYNC: [33m4194304[39m,
+     O_SYMLINK: [33m2097152[39m,
+     O_NONBLOCK: [33m4[39m,
+     S_IRWXU: [33m448[39m,
+     S_IRUSR: [33m256[39m,
+     S_IWUSR: [33m128[39m,
+     S_IXUSR: [33m64[39m,
+     S_IRWXG: [33m56[39m,
+     S_IRGRP: [33m32[39m,
+     S_IWGRP: [33m16[39m,
+     S_IXGRP: [33m8[39m,
+     S_IRWXO: [33m7[39m,
+     S_IROTH: [33m4[39m,
+     S_IWOTH: [33m2[39m,
+     S_IXOTH: [33m1[39m,
+     F_OK: [33m0[39m,
+     R_OK: [33m4[39m,
+     W_OK: [33m2[39m,
+     X_OK: [33m1[39m,
+     UV_FS_COPYFILE_EXCL: [33m1[39m,
+     COPYFILE_EXCL: [33m1[39m },
+  Stats: [36m[Function: Stats][39m,
+  F_OK: [33m0[39m,
+  R_OK: [33m4[39m,
+  W_OK: [33m2[39m,
+  X_OK: [33m1[39m,
+  access: [36m[Function][39m,
+  accessSync: [36m[Function][39m,
+  exists: [36m[Function][39m,
+  existsSync: [36m[Function][39m,
+  readFile: [36m[Function][39m,
+  readFileSync: [36m[Function][39m,
+  close: [36m[Function][39m,
+  closeSync: [36m[Function][39m,
+  open: [36m[Function][39m,
+  openSync: [36m[Function][39m,
+  read: [36m[Function][39m,
+  readSync: [36m[Function][39m,
+  write: [36m[Function][39m,
+  writeSync: [36m[Function][39m,
+  rename: [36m[Function][39m,
+  renameSync: [36m[Function][39m,
+  truncate: [36m[Function][39m,
+  truncateSync: [36m[Function][39m,
+  ftruncate: [36m[Function][39m,
+  ftruncateSync: [36m[Function][39m,
+  rmdir: [36m[Function][39m,
+  rmdirSync: [36m[Function][39m,
+  fdatasync: [36m[Function][39m,
+  fdatasyncSync: [36m[Function][39m,
+  fsync: [36m[Function][39m,
+  fsyncSync: [36m[Function][39m,
+  mkdir: [36m[Function][39m,
+  mkdirSync: [36m[Function][39m,
+  readdir: [36m[Function][39m,
+  readdirSync: [36m[Function][39m,
+  fstat: [36m[Function][39m,
+  lstat: [36m[Function][39m,
+  stat: [36m[Function][39m,
+  fstatSync: [36m[Function][39m,
+  lstatSync: [36m[Function][39m,
+  statSync: [36m[Function][39m,
+  readlink: [36m[Function][39m,
+  readlinkSync: [36m[Function][39m,
+  symlink: [36m[Function][39m,
+  symlinkSync: [36m[Function][39m,
+  link: [36m[Function][39m,
+  linkSync: [36m[Function][39m,
+  unlink: [36m[Function][39m,
+  unlinkSync: [36m[Function][39m,
+  fchmod: [36m[Function][39m,
+  fchmodSync: [36m[Function][39m,
+  lchmod: [36m[Function][39m,
+  lchmodSync: [36m[Function][39m,
+  chmod: [36m[Function][39m,
+  chmodSync: [36m[Function][39m,
+  lchown: [36m[Function][39m,
+  lchownSync: [36m[Function][39m,
+  fchown: [36m[Function][39m,
+  fchownSync: [36m[Function][39m,
+  chown: [36m[Function][39m,
+  chownSync: [36m[Function][39m,
+  _toUnixTimestamp: [36m[Function: toUnixTimestamp][39m,
+  utimes: [36m[Function][39m,
+  utimesSync: [36m[Function][39m,
+  futimes: [36m[Function][39m,
+  futimesSync: [36m[Function][39m,
+  writeFile: [36m[Function][39m,
+  writeFileSync: [36m[Function][39m,
+  appendFile: [36m[Function][39m,
+  appendFileSync: [36m[Function][39m,
+  watch: [36m[Function][39m,
+  watchFile: [36m[Function][39m,
+  unwatchFile: [36m[Function][39m,
+  realpathSync: [36m[Function: realpathSync][39m,
+  realpath: [36m[Function: realpath][39m,
+  mkdtemp: [36m[Function][39m,
+  mkdtempSync: [36m[Function][39m,
+  copyFile: [36m[Function][39m,
+  copyFileSync: [36m[Function][39m,
+  createReadStream: [36m[Function][39m,
+  ReadStream: 
+   { [Function: ReadStream]
+     super_: 
+      { [Function: Readable]
+        ReadableState: [36m[Function: ReadableState][39m,
+        super_: [36m[Object][39m,
+        _fromList: [36m[Function: fromList][39m } },
+  FileReadStream: 
+   { [Function: ReadStream]
+     super_: 
+      { [Function: Readable]
+        ReadableState: [36m[Function: ReadableState][39m,
+        super_: [36m[Object][39m,
+        _fromList: [36m[Function: fromList][39m } },
+  createWriteStream: [36m[Function][39m,
+  WriteStream: 
+   { [Function: WriteStream]
+     super_: { [Function: Writable] WritableState: [36m[Function: WritableState][39m, super_: [36m[Object][39m } },
+  FileWriteStream: 
+   { [Function: WriteStream]
+     super_: { [Function: Writable] WritableState: [36m[Function: WritableState][39m, super_: [36m[Object][39m } } }
+[1G[0J> [3Gfs.readdir("/*/*[1G[0J> fs.readdir("/*/[18G[1G[0J> fs.readdir("/*[17G*/*.test.ts, fucntion [1G[0J> fs.readdir("/**/*.test.ts, fucntion[38G[1G[0J> fs.readdir("/**/*.test.ts, fucntio[37G[1G[0J> fs.readdir("/**/*.test.ts, fucnti[36G[1G[0J> fs.readdir("/**/*.test.ts, fucnt[35G[1G[0J> fs.readdir("/**/*.test.ts, fucn[34G[1G[0J> fs.readdir("/**/*.test.ts, fuc[33G[1G[0J> fs.readdir("/**/*.test.ts, fu[32G[1G[0J> fs.readdir("/**/*.test.ts, f[31G[1G[0J> fs.readdir("/**/*.test.ts, [30G(err, items) = [1G[0J> fs.readdir("/**/*.test.ts, (err, items) =[44G> { console.log(items) })
+fs.readdir("/**/*.test.ts, (err, items) => { console.log(items) })
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+
+[1G[0J> [3G[1G[0J> [3G[1G[0J> fs.readdir("/**/*.test.ts, (err, items) => { console.log(items) })[69G[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1G[0J> fs.readdir("/**/*.test.ts, (err, items => { console.log(items) })[41G[1G[0J> fs.readdir("/**/*.test.ts, (err, item => { console.log(items) })[40G[1G[0J> fs.readdir("/**/*.test.ts, (err, ite => { console.log(items) })[39G[1G[0J> fs.readdir("/**/*.test.ts, (err, it => { console.log(items) })[38G[1G[0J> fs.readdir("/**/*.test.ts, (err, i => { console.log(items) })[37G[1G[0J> fs.readdir("/**/*.test.ts, (err,  => { console.log(items) })[36G[1G[0J> fs.readdir("/**/*.test.ts, (err, => { console.log(items) })[35G[1G[0J> fs.readdir("/**/*.test.ts, (err => { console.log(items) })[34G[1G[0J> fs.readdir("/**/*.test.ts, (er => { console.log(items) })[33G[1G[0J> fs.readdir("/**/*.test.ts, (e => { console.log(items) })[32G[1G[0J> fs.readdir("/**/*.test.ts, ( => { console.log(items) })[31G[1G[0J> fs.readdir("/**/*.test.ts,  => { console.log(items) })[30G[1G[0J> fs.readdir("/**/*.test.ts, f => { console.log(items) })[31G[1G[0J> fs.readdir("/**/*.test.ts, fu => { console.log(items) })[32G[1G[0J> fs.readdir("/**/*.test.ts, fun => { console.log(items) })[33G[1G[0J> fs.readdir("/**/*.test.ts, func => { console.log(items) })[34G[1G[0J> fs.readdir("/**/*.test.ts, funct => { console.log(items) })[35G[1G[0J> fs.readdir("/**/*.test.ts, functi => { console.log(items) })[36G[1G[0J> fs.readdir("/**/*.test.ts, functio => { console.log(items) })[37G[1G[0J> fs.readdir("/**/*.test.ts, function => { console.log(items) })[38G[1G[0J> fs.readdir("/**/*.test.ts, function( => { console.log(items) })[39G[1G[0J> fs.readdir("/**/*.test.ts, function(e => { console.log(items) })[40G[1G[0J> fs.readdir("/**/*.test.ts, function(er => { console.log(items) })[41G[1G[0J> fs.readdir("/**/*.test.ts, function(err => { console.log(items) })[42G[1G[0J> fs.readdir("/**/*.test.ts, function(err, => { console.log(items) })[43G[1G[0J> fs.readdir("/**/*.test.ts, function(err,  => { console.log(items) })[44G[1G[0J> fs.readdir("/**/*.test.ts, function(err, i => { console.log(items) })[45G[1G[0J> fs.readdir("/**/*.test.ts, function(err, it => { console.log(items) })[46G[1G[0J> fs.readdir("/**/*.test.ts, function(err, ite => { console.log(items) })[47G[1G[0J> fs.readdir("/**/*.test.ts, function(err, ites => { console.log(items) })[48G[1G[0J> fs.readdir("/**/*.test.ts, function(err, itesm => { console.log(items) })[49G[1G[0J> fs.readdir("/**/*.test.ts, function(err, ites => { console.log(items) })[48G[1G[0J> fs.readdir("/**/*.test.ts, function(err, ite => { console.log(items) })[47G[1G[0J> fs.readdir("/**/*.test.ts, function(err, item => { console.log(items) })[48G[1G[0J> fs.readdir("/**/*.test.ts, function(err, items => { console.log(items) })[49G[1G[0J> fs.readdir("/**/*.test.ts, function(err, items) => { console.log(items) })[50G[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1G[0J> fs.readdir("/**/*.test.ts", function(err, items) => { console.log(items) })[29G[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1G[0J> fs.readdir("/**/*.test.ts", function(err, items) = { console.log(items) })[53G[1G[0J> fs.readdir("/**/*.test.ts", function(err, items)  { console.log(items) })[52G[1G[0J> fs.readdir("/**/*.test.ts", function(err, items) { console.log(items) })[51G[24C
+[90mundefined[39m
+[1G[0J> [3Gundefined
+[1G[0J> fs.readdir("/**/*.test.ts", function(err, items) { console.log(items) })[75G[1D[1D[1D[1D[1G[0J> fs.readdir("/**/*.test.ts", function(err, items) { console.log(items,) })[72G[1G[0J> fs.readdir("/**/*.test.ts", function(err, items) { console.log(items, ) })[73G[1G[0J> fs.readdir("/**/*.test.ts", function(err, items) { console.log(items, e) })[74G[1G[0J> fs.readdir("/**/*.test.ts", function(err, items) { console.log(items, er) })[75G[1G[0J> fs.readdir("/**/*.test.ts", function(err, items) { console.log(items, err) })[76G[4C
+[90mundefined[39m
+[1G[0J> [3Gundefined { Error: ENOENT: no such file or directory, scandir '/**/*.test.ts'
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/**/*.test.ts' }
+[1G[0J> fs.readdir("/**/*.test.ts", function(err, items) { console.log(items, err) })[80G[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1C[1G[0J> fs.readdir("**/*.test.ts", function(err, items) { console.log(items, err) })[15G[64C
+[90mundefined[39m
+[1G[0J> [3Gundefined { Error: ENOENT: no such file or directory, scandir '**/*.test.ts'
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '**/*.test.ts' }
+[1G[0J> fs.readdir("**/*.test.ts", function(err, items) { console.log(items, err) })[79G[76D[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1G[0J> fs.readdir("**/*.test.t", function(err, items) { console.log(items, err) })[26G[1G[0J> fs.readdir("**/*.test.", function(err, items) { console.log(items, err) })[25G[1G[0J> fs.readdir("**/*.test", function(err, items) { console.log(items, err) })[24G[1G[0J> fs.readdir("**/*.tes", function(err, items) { console.log(items, err) })[23G[1G[0J> fs.readdir("**/*.te", function(err, items) { console.log(items, err) })[22G[1G[0J> fs.readdir("**/*.t", function(err, items) { console.log(items, err) })[21G[1G[0J> fs.readdir("**/*.", function(err, items) { console.log(items, err) })[20G[1G[0J> fs.readdir("**/*", function(err, items) { console.log(items, err) })[19G[1G[0J> fs.readdir("**/", function(err, items) { console.log(items, err) })[18G[1G[0J> fs.readdir("**", function(err, items) { console.log(items, err) })[17G[1G[0J> fs.readdir("*", function(err, items) { console.log(items, err) })[16G[1G[0J> fs.readdir("", function(err, items) { console.log(items, err) })[15G[1G[0J> fs.readdir(".", function(err, items) { console.log(items, err) })[16G[52C
+[90mundefined[39m
+[1G[0J> [3G[ '.eslintignore',
+  '.eslintrc.json',
+  '.git',
+  '.github',
+  '.gitignore',
+  '.nvmrc',
+  'jest.config.js',
+  'node_modules',
+  'package-lock.json',
+  'package.json',
+  'test',
+  'tsconfig.json' ] null
+q[1G[0J> [3G[1G[0J> fs.readdir(".", function(err, items) { console.log(items, err) })[68G[1D[64D[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1G[0J> fs.readdir("", function(err, items) { console.log(items, err) })[15G[1G[0J> fs.readdir(".", function(err, items) { console.log(items, err) })[16G[1G[0J> fs.readdir("./", function(err, items) { console.log(items, err) })[17G[1G[0J> fs.readdir("./*", function(err, items) { console.log(items, err) })[18G[1G[0J> fs.readdir("./**", function(err, items) { console.log(items, err) })[19G[1G[0J> fs.readdir("./**/", function(err, items) { console.log(items, err) })[20G[1G[0J> fs.readdir("./**/*", function(err, items) { console.log(items, err) })[21G[52C
+[90mundefined[39m
+[1G[0J> [3Gundefined { Error: ENOENT: no such file or directory, scandir './**/*' errno: -2, code: 'ENOENT', syscall: 'scandir', path: './**/*' }
+[1G[0J> fs.readdir("./**/*", function(err, items) { console.log(items, err) })[73G[70D[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1G[0J> fs.readdir("./**/", function(err, items) { console.log(items, err) })[20G[1G[0J> fs.readdir("./**", function(err, items) { console.log(items, err) })[19G[52C
+[90mundefined[39m
+[1G[0J> [3Gundefined { Error: ENOENT: no such file or directory, scandir './**' errno: -2, code: 'ENOENT', syscall: 'scandir', path: './**' }
+[1G[0J> fs.readdir("./**", function(err, items) { console.log(items, err) })[71G[1D[67D[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1G[0J> fs.readdir("./*", function(err, items) { console.log(items, err) })[18G[1G[0J> fs.readdir("./", function(err, items) { console.log(items, err) })[17G[1G[0J> fs.readdir(".", function(err, items) { console.log(items, err) })[16G[1G[0J> fs.readdir(".g", function(err, items) { console.log(items, err) })[17G[1G[0J> fs.readdir(".gi", function(err, items) { console.log(items, err) })[18G[1G[0J> fs.readdir(".git", function(err, items) { console.log(items, err) })[19G[1G[0J> fs.readdir(".gith", function(err, items) { console.log(items, err) })[20G[1G[0J> fs.readdir(".githu", function(err, items) { console.log(items, err) })[21G[1G[0J> fs.readdir(".github", function(err, items) { console.log(items, err) })[22G[1G[0J> fs.readdir(".github/", function(err, items) { console.log(items, err) })[23G[1G[0J> fs.readdir(".github/*", function(err, items) { console.log(items, err) })[24G[1G[0J> fs.readdir(".github/**", function(err, items) { console.log(items, err) })[25G[52C
+[90mundefined[39m
+[1G[0J> [3Gundefined { Error: ENOENT: no such file or directory, scandir '.github/**'
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '.github/**' }
+q[1G[0J> [3Gvar glob = require("glob")
+[90mundefined[39m
+[1G[0J> [3Gglob("**/*.test.j[1G[0J> glob("**/*.test.[19Gts", {}, functionn([1G[0J> glob("**/*.test.ts", {}, functionn[37G[1G[0J> glob("**/*.test.ts", {}, function[36G[1G[0J> glob("**/*.test.ts", {}, functio[35G[1G[0J> glob("**/*.test.ts", {}, functi[34G[1G[0J> glob("**/*.test.ts", {}, funct[33G[1G[0J> glob("**/*.test.ts", {}, func[32G[1G[0J> glob("**/*.test.ts", {}, fun[31G[1G[0J> glob("**/*.test.ts", {}, fu[30G[1G[0J> glob("**/*.test.ts", {}, f[29G[1G[0J> glob("**/*.test.ts", {}, [28G(err, files) { [1G[0J> glob("**/*.test.ts", {}, (err, files) {[42G[1G[0J> glob("**/*.test.ts", {}, (err, files) [41G=> { console.lg0[1G[0J> glob("**/*.test.ts", {}, (err, files) => { console.lg[56G[1G[0J> glob("**/*.test.ts", {}, (err, files) => { console.l[55Glog)[1G[0J> glob("**/*.test.ts", {}, (err, files) => { console.llog[58G[1G[0J> glob("**/*.test.ts", {}, (err, files) => { console.llo[57G[1G[0J> glob("**/*.test.ts", {}, (err, files) => { console.ll[56G[1G[0J> glob("**/*.test.ts", {}, (err, files) => { console.l[55Gog(err, files) }
+[1G[0J... [5G
+[1G[0J> [3G[1G[0J> glob("**/*.test.ts", {}, (err, files) => { console.log(err, files) }[71G[1D[1C)
+Glob {
+  silent: [33mfalse[39m,
+  pattern: [32m'**/*.test.ts'[39m,
+  strict: [33mtrue[39m,
+  realpath: [33mfalse[39m,
+  realpathCache: {},
+  follow: [33mfalse[39m,
+  dot: [33mfalse[39m,
+  mark: [33mfalse[39m,
+  nodir: [33mfalse[39m,
+  sync: [33mfalse[39m,
+  nounique: [33mfalse[39m,
+  nonull: [33mfalse[39m,
+  nosort: [33mfalse[39m,
+  nocase: [33mfalse[39m,
+  stat: [33mfalse[39m,
+  noprocess: [33mfalse[39m,
+  absolute: [33mfalse[39m,
+  maxLength: [33mInfinity[39m,
+  cache: {},
+  statCache: {},
+  symlinks: {},
+  ignore: [],
+  changedCwd: [33mfalse[39m,
+  cwd: [32m'/Users/mikekavouras/projects/example-github-action-typescript'[39m,
+  root: [32m'/'[39m,
+  cwdAbs: [32m'/Users/mikekavouras/projects/example-github-action-typescript'[39m,
+  nomount: [33mfalse[39m,
+  minimatch: 
+   Minimatch {
+     options: { nonegate: [33mtrue[39m, nocomment: [33mtrue[39m },
+     set: [ [36m[Array][39m ],
+     pattern: [32m'**/*.test.ts'[39m,
+     regexp: [1mnull[22m,
+     negate: [33mfalse[39m,
+     comment: [33mfalse[39m,
+     empty: [33mfalse[39m,
+     globSet: [ [32m'**/*.test.ts'[39m ],
+     globParts: [ [36m[Array][39m ] },
+  options: { nonegate: [33mtrue[39m, nocomment: [33mtrue[39m },
+  _didRealPath: [33mfalse[39m,
+  matches: [ [90m<1 empty item>[39m ],
+  _events: { error: { [Function: f] called: [33mfalse[39m }, end: [36m[Function][39m },
+  _eventsCount: [33m2[39m,
+  _processing: [33m1[39m,
+  _emitQueue: [],
+  _processQueue: [],
+  paused: [33mfalse[39m }
+[1G[0J> [3Gnull []
+[1G[0J> glob("**/*.test.ts", {}, (err, files) => { console.log(err, files) })[72G[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1G[0J> glob("**/*.test.ts", {}, (err, files) => { console.log(err,files) })[62G[1G[0J> glob("**/*.test.ts", {}, (err, files) => { console.log(errfiles) })[61G[1G[0J> glob("**/*.test.ts", {}, (err, files) => { console.log(erfiles) })[60G[1G[0J> glob("**/*.test.ts", {}, (err, files) => { console.log(efiles) })[59G[1G[0J> glob("**/*.test.ts", {}, (err, files) => { console.log(files) })[58G[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1G[0J> glob("**/*.test.t", {}, (err, files) => { console.log(files) })[20G[1G[0J> glob("**/*.test.", {}, (err, files) => { console.log(files) })[19G[1G[0J> glob("**/*.test", {}, (err, files) => { console.log(files) })[18G[1G[0J> glob("**/*.tes", {}, (err, files) => { console.log(files) })[17G[1G[0J> glob("**/*.te", {}, (err, files) => { console.log(files) })[16G[1G[0J> glob("**/*.t", {}, (err, files) => { console.log(files) })[15G[1G[0J> glob("**/*.", {}, (err, files) => { console.log(files) })[14G[1G[0J> glob("**/*", {}, (err, files) => { console.log(files) })[13G[1G[0J> glob("**/", {}, (err, files) => { console.log(files) })[12G[1G[0J> glob("**", {}, (err, files) => { console.log(files) })[11G[1G[0J> glob("*", {}, (err, files) => { console.log(files) })[10G[1G[0J> glob("", {}, (err, files) => { console.log(files) })[9G[1G[0J> glob(".", {}, (err, files) => { console.log(files) })[10G[46C
+Glob {
+  silent: [33mfalse[39m,
+  pattern: [32m'.'[39m,
+  strict: [33mtrue[39m,
+  realpath: [33mfalse[39m,
+  realpathCache: {},
+  follow: [33mfalse[39m,
+  dot: [33mfalse[39m,
+  mark: [33mfalse[39m,
+  nodir: [33mfalse[39m,
+  sync: [33mfalse[39m,
+  nounique: [33mfalse[39m,
+  nonull: [33mfalse[39m,
+  nosort: [33mfalse[39m,
+  nocase: [33mfalse[39m,
+  stat: [33mfalse[39m,
+  noprocess: [33mfalse[39m,
+  absolute: [33mfalse[39m,
+  maxLength: [33mInfinity[39m,
+  cache: {},
+  statCache: {},
+  symlinks: {},
+  ignore: [],
+  changedCwd: [33mfalse[39m,
+  cwd: [32m'/Users/mikekavouras/projects/example-github-action-typescript'[39m,
+  root: [32m'/'[39m,
+  cwdAbs: [32m'/Users/mikekavouras/projects/example-github-action-typescript'[39m,
+  nomount: [33mfalse[39m,
+  minimatch: 
+   Minimatch {
+     options: { nonegate: [33mtrue[39m, nocomment: [33mtrue[39m },
+     set: [ [36m[Array][39m ],
+     pattern: [32m'.'[39m,
+     regexp: [1mnull[22m,
+     negate: [33mfalse[39m,
+     comment: [33mfalse[39m,
+     empty: [33mfalse[39m,
+     globSet: [ [32m'.'[39m ],
+     globParts: [ [36m[Array][39m ] },
+  options: { nonegate: [33mtrue[39m, nocomment: [33mtrue[39m },
+  _didRealPath: [33mfalse[39m,
+  matches: [ [90m<1 empty item>[39m ],
+  _events: { error: { [Function: f] called: [33mfalse[39m }, end: [36m[Function][39m },
+  _eventsCount: [33m2[39m,
+  _processing: [33m1[39m,
+  _emitQueue: [],
+  _processQueue: [],
+  paused: [33mfalse[39m }
+[1G[0J> [3G[ '.' ]
+[1G[0J> glob(".", {}, (err, files) => { console.log(files) })[56G[53D[1C[1C[1C[1C[1C[1C[1C[1G[0J> glob("./", {}, (err, files) => { console.log(files) })[11G[46C
+Glob {
+  silent: [33mfalse[39m,
+  pattern: [32m'./'[39m,
+  strict: [33mtrue[39m,
+  realpath: [33mfalse[39m,
+  realpathCache: {},
+  follow: [33mfalse[39m,
+  dot: [33mfalse[39m,
+  mark: [33mfalse[39m,
+  nodir: [33mfalse[39m,
+  sync: [33mfalse[39m,
+  nounique: [33mfalse[39m,
+  nonull: [33mfalse[39m,
+  nosort: [33mfalse[39m,
+  nocase: [33mfalse[39m,
+  stat: [33mfalse[39m,
+  noprocess: [33mfalse[39m,
+  absolute: [33mfalse[39m,
+  maxLength: [33mInfinity[39m,
+  cache: {},
+  statCache: {},
+  symlinks: {},
+  ignore: [],
+  changedCwd: [33mfalse[39m,
+  cwd: [32m'/Users/mikekavouras/projects/example-github-action-typescript'[39m,
+  root: [32m'/'[39m,
+  cwdAbs: [32m'/Users/mikekavouras/projects/example-github-action-typescript'[39m,
+  nomount: [33mfalse[39m,
+  minimatch: 
+   Minimatch {
+     options: { nonegate: [33mtrue[39m, nocomment: [33mtrue[39m },
+     set: [ [36m[Array][39m ],
+     pattern: [32m'./'[39m,
+     regexp: [1mnull[22m,
+     negate: [33mfalse[39m,
+     comment: [33mfalse[39m,
+     empty: [33mfalse[39m,
+     globSet: [ [32m'./'[39m ],
+     globParts: [ [36m[Array][39m ] },
+  options: { nonegate: [33mtrue[39m, nocomment: [33mtrue[39m },
+  _didRealPath: [33mfalse[39m,
+  matches: [ [90m<1 empty item>[39m ],
+  _events: { error: { [Function: f] called: [33mfalse[39m }, end: [36m[Function][39m },
+  _eventsCount: [33m2[39m,
+  _processing: [33m1[39m,
+  _emitQueue: [],
+  _processQueue: [],
+  paused: [33mfalse[39m }
+[1G[0J> [3G[ './' ]
+[1G[0J> glob("./", {}, (err, files) => { console.log(files) })[57G[54D[1C[1C[1C[1C[1C[1C[1C[1C[1G[0J> glob(".", {}, (err, files) => { console.log(files) })[10G[1G[0J> glob("", {}, (err, files) => { console.log(files) })[9G[1G[0J> glob("*", {}, (err, files) => { console.log(files) })[10G[1G[0J> glob("**", {}, (err, files) => { console.log(files) })[11G[1G[0J> glob("**/", {}, (err, files) => { console.log(files) })[12G[1G[0J> glob("**/*", {}, (err, files) => { console.log(files) })[13G[46C
+Glob {
+  silent: [33mfalse[39m,
+  pattern: [32m'**/*'[39m,
+  strict: [33mtrue[39m,
+  realpath: [33mfalse[39m,
+  realpathCache: {},
+  follow: [33mfalse[39m,
+  dot: [33mfalse[39m,
+  mark: [33mfalse[39m,
+  nodir: [33mfalse[39m,
+  sync: [33mfalse[39m,
+  nounique: [33mfalse[39m,
+  nonull: [33mfalse[39m,
+  nosort: [33mfalse[39m,
+  nocase: [33mfalse[39m,
+  stat: [33mfalse[39m,
+  noprocess: [33mfalse[39m,
+  absolute: [33mfalse[39m,
+  maxLength: [33mInfinity[39m,
+  cache: {},
+  statCache: {},
+  symlinks: {},
+  ignore: [],
+  changedCwd: [33mfalse[39m,
+  cwd: [32m'/Users/mikekavouras/projects/example-github-action-typescript'[39m,
+  root: [32m'/'[39m,
+  cwdAbs: [32m'/Users/mikekavouras/projects/example-github-action-typescript'[39m,
+  nomount: [33mfalse[39m,
+  minimatch: 
+   Minimatch {
+     options: { nonegate: [33mtrue[39m, nocomment: [33mtrue[39m },
+     set: [ [36m[Array][39m ],
+     pattern: [32m'**/*'[39m,
+     regexp: [1mnull[22m,
+     negate: [33mfalse[39m,
+     comment: [33mfalse[39m,
+     empty: [33mfalse[39m,
+     globSet: [ [32m'**/*'[39m ],
+     globParts: [ [36m[Array][39m ] },
+  options: { nonegate: [33mtrue[39m, nocomment: [33mtrue[39m },
+  _didRealPath: [33mfalse[39m,
+  matches: [ [90m<1 empty item>[39m ],
+  _events: { error: { [Function: f] called: [33mfalse[39m }, end: [36m[Function][39m },
+  _eventsCount: [33m2[39m,
+  _processing: [33m1[39m,
+  _emitQueue: [],
+  _processQueue: [],
+  paused: [33mfalse[39m }
+[1G[0J> [3G[ 'jest.config.js',
+  'node_modules',
+  'node_modules/@actions',
+  'node_modules/@actions/core',
+  'node_modules/@actions/core/lib',
+  'node_modules/@actions/core/lib/command.d.ts',
+  'node_modules/@actions/core/lib/command.js',
+  'node_modules/@actions/core/lib/command.js.map',
+  'node_modules/@actions/core/lib/core.d.ts',
+  'node_modules/@actions/core/lib/core.js',
+  'node_modules/@actions/core/lib/core.js.map',
+  'node_modules/@actions/core/package.json',
+  'node_modules/@actions/core/README.md',
+  'node_modules/@actions/github',
+  'node_modules/@actions/github/lib',
+  'node_modules/@actions/github/lib/context.d.ts',
+  'node_modules/@actions/github/lib/context.js',
+  'node_modules/@actions/github/lib/context.js.map',
+  'node_modules/@actions/github/lib/github.d.ts',
+  'node_modules/@actions/github/lib/github.js',
+  'node_modules/@actions/github/lib/github.js.map',
+  'node_modules/@actions/github/lib/interfaces.d.ts',
+  'node_modules/@actions/github/lib/interfaces.js',
+  'node_modules/@actions/github/lib/interfaces.js.map',
+  'node_modules/@actions/github/LICENSE.md',
+  'node_modules/@actions/github/package.json',
+  'node_modules/@actions/github/README.md',
+  'node_modules/@babel',
+  'node_modules/@babel/code-frame',
+  'node_modules/@babel/code-frame/lib',
+  'node_modules/@babel/code-frame/lib/index.js',
+  'node_modules/@babel/code-frame/LICENSE',
+  'node_modules/@babel/code-frame/package.json',
+  'node_modules/@babel/code-frame/README.md',
+  'node_modules/@babel/core',
+  'node_modules/@babel/core/lib',
+  'node_modules/@babel/core/lib/config',
+  'node_modules/@babel/core/lib/config/caching.js',
+  'node_modules/@babel/core/lib/config/config-chain.js',
+  'node_modules/@babel/core/lib/config/config-descriptors.js',
+  'node_modules/@babel/core/lib/config/files',
+  'node_modules/@babel/core/lib/config/files/configuration.js',
+  'node_modules/@babel/core/lib/config/files/index-browser.js',
+  'node_modules/@babel/core/lib/config/files/index.js',
+  'node_modules/@babel/core/lib/config/files/package.js',
+  'node_modules/@babel/core/lib/config/files/plugins.js',
+  'node_modules/@babel/core/lib/config/files/types.js',
+  'node_modules/@babel/core/lib/config/files/utils.js',
+  'node_modules/@babel/core/lib/config/full.js',
+  'node_modules/@babel/core/lib/config/helpers',
+  'node_modules/@babel/core/lib/config/helpers/config-api.js',
+  'node_modules/@babel/core/lib/config/helpers/environment.js',
+  'node_modules/@babel/core/lib/config/index.js',
+  'node_modules/@babel/core/lib/config/item.js',
+  'node_modules/@babel/core/lib/config/partial.js',
+  'node_modules/@babel/core/lib/config/pattern-to-regex.js',
+  'node_modules/@babel/core/lib/config/plugin.js',
+  'node_modules/@babel/core/lib/config/util.js',
+  'node_modules/@babel/core/lib/config/validation',
+  'node_modules/@babel/core/lib/config/validation/option-assertions.js',
+  'node_modules/@babel/core/lib/config/validation/options.js',
+  'node_modules/@babel/core/lib/config/validation/plugins.js',
+  'node_modules/@babel/core/lib/config/validation/removed.js',
+  'node_modules/@babel/core/lib/index.js',
+  'node_modules/@babel/core/lib/parse.js',
+  'node_modules/@babel/core/lib/tools',
+  'node_modules/@babel/core/lib/tools/build-external-helpers.js',
+  'node_modules/@babel/core/lib/transform-ast.js',
+  'node_modules/@babel/core/lib/transform-file-browser.js',
+  'node_modules/@babel/core/lib/transform-file.js',
+  'node_modules/@babel/core/lib/transform.js',
+  'node_modules/@babel/core/lib/transformation',
+  'node_modules/@babel/core/lib/transformation/block-hoist-plugin.js',
+  'node_modules/@babel/core/lib/transformation/file',
+  'node_modules/@babel/core/lib/transformation/file/file.js',
+  'node_modules/@babel/core/lib/transformation/file/generate.js',
+  'node_modules/@babel/core/lib/transformation/file/merge-map.js',
+  'node_modules/@babel/core/lib/transformation/index.js',
+  'node_modules/@babel/core/lib/transformation/normalize-file.js',
+  'node_modules/@babel/core/lib/transformation/normalize-opts.js',
+  'node_modules/@babel/core/lib/transformation/plugin-pass.js',
+  'node_modules/@babel/core/lib/transformation/util',
+  'node_modules/@babel/core/lib/transformation/util/missing-plugin-helper.js',
+  'node_modules/@babel/core/LICENSE',
+  'node_modules/@babel/core/node_modules',
+  'node_modules/@babel/core/node_modules/debug',
+  'node_modules/@babel/core/node_modules/debug/CHANGELOG.md',
+  'node_modules/@babel/core/node_modules/debug/dist',
+  'node_modules/@babel/core/node_modules/debug/dist/debug.js',
+  'node_modules/@babel/core/node_modules/debug/LICENSE',
+  'node_modules/@babel/core/node_modules/debug/package.json',
+  'node_modules/@babel/core/node_modules/debug/README.md',
+  'node_modules/@babel/core/node_modules/debug/src',
+  'node_modules/@babel/core/node_modules/debug/src/browser.js',
+  'node_modules/@babel/core/node_modules/debug/src/common.js',
+  'node_modules/@babel/core/node_modules/debug/src/index.js',
+  'node_modules/@babel/core/node_modules/debug/src/node.js',
+  'node_modules/@babel/core/node_modules/ms',
+  'node_modules/@babel/core/node_modules/ms/index.js',
+  'node_modules/@babel/core/node_modules/ms/license.md',
+  ... 13748 more items ]
+[1G[0J> glob("**/*", {}, (err, files) => { console.log(files) })[59G[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1G[0J> glob("**/", {}, (err, files) => { console.log(files) })[12G[1G[0J> glob("**", {}, (err, files) => { console.log(files) })[11G[1G[0J> glob("*", {}, (err, files) => { console.log(files) })[10G[1G[0J> glob("", {}, (err, files) => { console.log(files) })[9G[1G[0J> glob(".", {}, (err, files) => { console.log(files) })[10G[1G[0J> glob("./", {}, (err, files) => { console.log(files) })[11G[1G[0J> glob("./&", {}, (err, files) => { console.log(files) })[12G[1G[0J> glob("./&*", {}, (err, files) => { console.log(files) })[13G[1G[0J> glob("./&**", {}, (err, files) => { console.log(files) })[14G[1G[0J> glob("./&*", {}, (err, files) => { console.log(files) })[13G[1G[0J> glob("./&", {}, (err, files) => { console.log(files) })[12G[1G[0J> glob("./", {}, (err, files) => { console.log(files) })[11G[1G[0J> glob(".", {}, (err, files) => { console.log(files) })[10G[1G[0J> glob(".g", {}, (err, files) => { console.log(files) })[11G[1G[0J> glob(".gi", {}, (err, files) => { console.log(files) })[12G[1G[0J> glob(".git", {}, (err, files) => { console.log(files) })[13G[1G[0J> glob(".gith", {}, (err, files) => { console.log(files) })[14G[1G[0J> glob(".githu", {}, (err, files) => { console.log(files) })[15G[1G[0J> glob(".github", {}, (err, files) => { console.log(files) })[16G[1G[0J> glob(".github/", {}, (err, files) => { console.log(files) })[17G[1G[0J> glob(".github/*", {}, (err, files) => { console.log(files) })[18G[1G[0J> glob(".github/**", {}, (err, files) => { console.log(files) })[19G[46C
+Glob {
+  silent: [33mfalse[39m,
+  pattern: [32m'.github/**'[39m,
+  strict: [33mtrue[39m,
+  realpath: [33mfalse[39m,
+  realpathCache: {},
+  follow: [33mfalse[39m,
+  dot: [33mfalse[39m,
+  mark: [33mfalse[39m,
+  nodir: [33mfalse[39m,
+  sync: [33mfalse[39m,
+  nounique: [33mfalse[39m,
+  nonull: [33mfalse[39m,
+  nosort: [33mfalse[39m,
+  nocase: [33mfalse[39m,
+  stat: [33mfalse[39m,
+  noprocess: [33mfalse[39m,
+  absolute: [33mfalse[39m,
+  maxLength: [33mInfinity[39m,
+  cache: {},
+  statCache: {},
+  symlinks: {},
+  ignore: [],
+  changedCwd: [33mfalse[39m,
+  cwd: [32m'/Users/mikekavouras/projects/example-github-action-typescript'[39m,
+  root: [32m'/'[39m,
+  cwdAbs: [32m'/Users/mikekavouras/projects/example-github-action-typescript'[39m,
+  nomount: [33mfalse[39m,
+  minimatch: 
+   Minimatch {
+     options: { nonegate: [33mtrue[39m, nocomment: [33mtrue[39m },
+     set: [ [36m[Array][39m ],
+     pattern: [32m'.github/**'[39m,
+     regexp: [1mnull[22m,
+     negate: [33mfalse[39m,
+     comment: [33mfalse[39m,
+     empty: [33mfalse[39m,
+     globSet: [ [32m'.github/**'[39m ],
+     globParts: [ [36m[Array][39m ] },
+  options: { nonegate: [33mtrue[39m, nocomment: [33mtrue[39m },
+  _didRealPath: [33mfalse[39m,
+  matches: [ [90m<1 empty item>[39m ],
+  _events: { error: { [Function: f] called: [33mfalse[39m }, end: [36m[Function][39m },
+  _eventsCount: [33m2[39m,
+  _processing: [33m1[39m,
+  _emitQueue: [],
+  _processQueue: [],
+  paused: [33mfalse[39m }
+[1G[0J> [3G[ '.github',
+  '.github/actions',
+  '.github/actions/debug-action',
+  '.github/actions/debug-action/__tests__',
+  '.github/actions/debug-action/__tests__/debug.test.ts',
+  '.github/actions/debug-action/debug.ts',
+  '.github/workflows' ]
+[1G[0J> glob(".github/**", {}, (err, files) => { console.log(files) })[65G[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1C[1G[0J> glob(".github/**/", {}, (err, files) => { console.log(files) })[20G[1G[0J> glob(".github/**/*", {}, (err, files) => { console.log(files) })[21G[1G[0J> glob(".github/**/*.", {}, (err, files) => { console.log(files) })[22G[1G[0J> glob(".github/**/*.t", {}, (err, files) => { console.log(files) })[23G[1G[0J> glob(".github/**/*.ts", {}, (err, files) => { console.log(files) })[24G[1G[0J> glob(".github/**/*.t", {}, (err, files) => { console.log(files) })[23G[1G[0J> glob(".github/**/*.", {}, (err, files) => { console.log(files) })[22G[1G[0J> glob(".github/**/*.t", {}, (err, files) => { console.log(files) })[23G[1G[0J> glob(".github/**/*.te", {}, (err, files) => { console.log(files) })[24G[1G[0J> glob(".github/**/*.tes", {}, (err, files) => { console.log(files) })[25G[1G[0J> glob(".github/**/*.test", {}, (err, files) => { console.log(files) })[26G[1G[0J> glob(".github/**/*.test.", {}, (err, files) => { console.log(files) })[27G[1G[0J> glob(".github/**/*.test.t", {}, (err, files) => { console.log(files) })[28G[1G[0J> glob(".github/**/*.test.ts", {}, (err, files) => { console.log(files) })[29G[46C
+Glob {
+  silent: [33mfalse[39m,
+  pattern: [32m'.github/**/*.test.ts'[39m,
+  strict: [33mtrue[39m,
+  realpath: [33mfalse[39m,
+  realpathCache: {},
+  follow: [33mfalse[39m,
+  dot: [33mfalse[39m,
+  mark: [33mfalse[39m,
+  nodir: [33mfalse[39m,
+  sync: [33mfalse[39m,
+  nounique: [33mfalse[39m,
+  nonull: [33mfalse[39m,
+  nosort: [33mfalse[39m,
+  nocase: [33mfalse[39m,
+  stat: [33mfalse[39m,
+  noprocess: [33mfalse[39m,
+  absolute: [33mfalse[39m,
+  maxLength: [33mInfinity[39m,
+  cache: {},
+  statCache: {},
+  symlinks: {},
+  ignore: [],
+  changedCwd: [33mfalse[39m,
+  cwd: [32m'/Users/mikekavouras/projects/example-github-action-typescript'[39m,
+  root: [32m'/'[39m,
+  cwdAbs: [32m'/Users/mikekavouras/projects/example-github-action-typescript'[39m,
+  nomount: [33mfalse[39m,
+  minimatch: 
+   Minimatch {
+     options: { nonegate: [33mtrue[39m, nocomment: [33mtrue[39m },
+     set: [ [36m[Array][39m ],
+     pattern: [32m'.github/**/*.test.ts'[39m,
+     regexp: [1mnull[22m,
+     negate: [33mfalse[39m,
+     comment: [33mfalse[39m,
+     empty: [33mfalse[39m,
+     globSet: [ [32m'.github/**/*.test.ts'[39m ],
+     globParts: [ [36m[Array][39m ] },
+  options: { nonegate: [33mtrue[39m, nocomment: [33mtrue[39m },
+  _didRealPath: [33mfalse[39m,
+  matches: [ [90m<1 empty item>[39m ],
+  _events: { error: { [Function: f] called: [33mfalse[39m }, end: [36m[Function][39m },
+  _eventsCount: [33m2[39m,
+  _processing: [33m1[39m,
+  _emitQueue: [],
+  _processQueue: [],
+  paused: [33mfalse[39m }
+[1G[0J> [3G[ '.github/actions/debug-action/__tests__/debug.test.ts' ]
+q[1G[0J> [3G[1G[0J> glob(".github/**/*.test.ts", {}, (err, files) => { console.log(files) })[75G[72D[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1G[0J> glob(".githu/**/*.test.ts", {}, (err, files) => { console.log(files) })[15G[1G[0J> glob(".gith/**/*.test.ts", {}, (err, files) => { console.log(files) })[14G[1G[0J> glob(".git/**/*.test.ts", {}, (err, files) => { console.log(files) })[13G[1G[0J> glob(".gi/**/*.test.ts", {}, (err, files) => { console.log(files) })[12G[1G[0J> glob(".g/**/*.test.ts", {}, (err, files) => { console.log(files) })[11G[1G[0J> glob("./**/*.test.ts", {}, (err, files) => { console.log(files) })[10G[1C[1G[0J> glob(".**/*.test.ts", {}, (err, files) => { console.log(files) })[10G[1G[0J> glob("**/*.test.ts", {}, (err, files) => { console.log(files) })[9G[58C
+Glob {
+  silent: [33mfalse[39m,
+  pattern: [32m'**/*.test.ts'[39m,
+  strict: [33mtrue[39m,
+  realpath: [33mfalse[39m,
+  realpathCache: {},
+  follow: [33mfalse[39m,
+  dot: [33mfalse[39m,
+  mark: [33mfalse[39m,
+  nodir: [33mfalse[39m,
+  sync: [33mfalse[39m,
+  nounique: [33mfalse[39m,
+  nonull: [33mfalse[39m,
+  nosort: [33mfalse[39m,
+  nocase: [33mfalse[39m,
+  stat: [33mfalse[39m,
+  noprocess: [33mfalse[39m,
+  absolute: [33mfalse[39m,
+  maxLength: [33mInfinity[39m,
+  cache: {},
+  statCache: {},
+  symlinks: {},
+  ignore: [],
+  changedCwd: [33mfalse[39m,
+  cwd: [32m'/Users/mikekavouras/projects/example-github-action-typescript'[39m,
+  root: [32m'/'[39m,
+  cwdAbs: [32m'/Users/mikekavouras/projects/example-github-action-typescript'[39m,
+  nomount: [33mfalse[39m,
+  minimatch: 
+   Minimatch {
+     options: { nonegate: [33mtrue[39m, nocomment: [33mtrue[39m },
+     set: [ [36m[Array][39m ],
+     pattern: [32m'**/*.test.ts'[39m,
+     regexp: [1mnull[22m,
+     negate: [33mfalse[39m,
+     comment: [33mfalse[39m,
+     empty: [33mfalse[39m,
+     globSet: [ [32m'**/*.test.ts'[39m ],
+     globParts: [ [36m[Array][39m ] },
+  options: { nonegate: [33mtrue[39m, nocomment: [33mtrue[39m },
+  _didRealPath: [33mfalse[39m,
+  matches: [ [90m<1 empty item>[39m ],
+  _events: { error: { [Function: f] called: [33mfalse[39m }, end: [36m[Function][39m },
+  _eventsCount: [33m2[39m,
+  _processing: [33m1[39m,
+  _emitQueue: [],
+  _processQueue: [],
+  paused: [33mfalse[39m }
+[1G[0J> [3G[]
+[1G[0J> glob("**/*.test.ts", {}, (err, files) => { console.log(files) })[67G[1D[63D[1C[1C[1C[1C[1C[1C[1C[1D[1G[0J> glob(".**/*.test.ts", {}, (err, files) => { console.log(files) })[10G[1G[0J> glob("./**/*.test.ts", {}, (err, files) => { console.log(files) })[11G[58C
+Glob {
+  silent: [33mfalse[39m,
+  pattern: [32m'./**/*.test.ts'[39m,
+  strict: [33mtrue[39m,
+  realpath: [33mfalse[39m,
+  realpathCache: {},
+  follow: [33mfalse[39m,
+  dot: [33mfalse[39m,
+  mark: [33mfalse[39m,
+  nodir: [33mfalse[39m,
+  sync: [33mfalse[39m,
+  nounique: [33mfalse[39m,
+  nonull: [33mfalse[39m,
+  nosort: [33mfalse[39m,
+  nocase: [33mfalse[39m,
+  stat: [33mfalse[39m,
+  noprocess: [33mfalse[39m,
+  absolute: [33mfalse[39m,
+  maxLength: [33mInfinity[39m,
+  cache: {},
+  statCache: {},
+  symlinks: {},
+  ignore: [],
+  changedCwd: [33mfalse[39m,
+  cwd: [32m'/Users/mikekavouras/projects/example-github-action-typescript'[39m,
+  root: [32m'/'[39m,
+  cwdAbs: [32m'/Users/mikekavouras/projects/example-github-action-typescript'[39m,
+  nomount: [33mfalse[39m,
+  minimatch: 
+   Minimatch {
+     options: { nonegate: [33mtrue[39m, nocomment: [33mtrue[39m },
+     set: [ [36m[Array][39m ],
+     pattern: [32m'./**/*.test.ts'[39m,
+     regexp: [1mnull[22m,
+     negate: [33mfalse[39m,
+     comment: [33mfalse[39m,
+     empty: [33mfalse[39m,
+     globSet: [ [32m'./**/*.test.ts'[39m ],
+     globParts: [ [36m[Array][39m ] },
+  options: { nonegate: [33mtrue[39m, nocomment: [33mtrue[39m },
+  _didRealPath: [33mfalse[39m,
+  matches: [ [90m<1 empty item>[39m ],
+  _events: { error: { [Function: f] called: [33mfalse[39m }, end: [36m[Function][39m },
+  _eventsCount: [33m2[39m,
+  _processing: [33m1[39m,
+  _emitQueue: [],
+  _processQueue: [],
+  paused: [33mfalse[39m }
+[1G[0J> [3G[]
+[1G[0J> glob("./**/*.test.ts", {}, (err, files) => { console.log(files) })[69G[66D[1C[1C[1C[1C[1C[1C[1C[1C[1G[0J> glob(".**/*.test.ts", {}, (err, files) => { console.log(files) })[10G[1G[0J> glob(".***/*.test.ts", {}, (err, files) => { console.log(files) })[11G[1G[0J> glob(".*/**/*.test.ts", {}, (err, files) => { console.log(files) })[12G[58C
+Glob {
+  silent: [33mfalse[39m,
+  pattern: [32m'.*/**/*.test.ts'[39m,
+  strict: [33mtrue[39m,
+  realpath: [33mfalse[39m,
+  realpathCache: {},
+  follow: [33mfalse[39m,
+  dot: [33mfalse[39m,
+  mark: [33mfalse[39m,
+  nodir: [33mfalse[39m,
+  sync: [33mfalse[39m,
+  nounique: [33mfalse[39m,
+  nonull: [33mfalse[39m,
+  nosort: [33mfalse[39m,
+  nocase: [33mfalse[39m,
+  stat: [33mfalse[39m,
+  noprocess: [33mfalse[39m,
+  absolute: [33mfalse[39m,
+  maxLength: [33mInfinity[39m,
+  cache: {},
+  statCache: {},
+  symlinks: {},
+  ignore: [],
+  changedCwd: [33mfalse[39m,
+  cwd: [32m'/Users/mikekavouras/projects/example-github-action-typescript'[39m,
+  root: [32m'/'[39m,
+  cwdAbs: [32m'/Users/mikekavouras/projects/example-github-action-typescript'[39m,
+  nomount: [33mfalse[39m,
+  minimatch: 
+   Minimatch {
+     options: { nonegate: [33mtrue[39m, nocomment: [33mtrue[39m },
+     set: [ [36m[Array][39m ],
+     pattern: [32m'.*/**/*.test.ts'[39m,
+     regexp: [1mnull[22m,
+     negate: [33mfalse[39m,
+     comment: [33mfalse[39m,
+     empty: [33mfalse[39m,
+     globSet: [ [32m'.*/**/*.test.ts'[39m ],
+     globParts: [ [36m[Array][39m ] },
+  options: { nonegate: [33mtrue[39m, nocomment: [33mtrue[39m },
+  _didRealPath: [33mfalse[39m,
+  matches: [ [90m<1 empty item>[39m ],
+  _events: { error: { [Function: f] called: [33mfalse[39m }, end: [36m[Function][39m },
+  _eventsCount: [33m2[39m,
+  _processing: [33m1[39m,
+  _emitQueue: [],
+  _processQueue: [],
+  paused: [33mfalse[39m }
+[1G[0J> [3G[ '.github/actions/debug-action/__tests__/debug.test.ts' ]
+[1G[0J> glob(".*/**/*.test.ts", {}, (err, files) => { console.log(files) })[70G
